@@ -1,5 +1,8 @@
 package com.hendisantika.springdataredisexample.config;
 
+import com.hendisantika.springdataredisexample.queue.MessagePublisher;
+import com.hendisantika.springdataredisexample.queue.MessagePublisherImpl;
+import com.hendisantika.springdataredisexample.queue.MessageSubscriber;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
