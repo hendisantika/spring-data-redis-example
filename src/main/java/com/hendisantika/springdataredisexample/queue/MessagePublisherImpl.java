@@ -20,7 +20,7 @@ import org.springframework.stereotype.Service;
 public class MessagePublisherImpl implements MessagePublisher {
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;
-    
+
     @Autowired
     private ChannelTopic topic;
 
